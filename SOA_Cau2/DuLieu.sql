@@ -1,0 +1,21 @@
+CREATE DATABASE SOAShopC2;
+GO
+
+USE SOAShopC2;
+GO
+
+CREATE TABLE Customers (
+    CustomerId INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Phone NVARCHAR(20) NULL
+);
+
+CREATE TABLE Orders (
+    OrderId INT PRIMARY KEY IDENTITY(1,1),
+    CustomerId INT NOT NULL,
+    OrderDate DATETIME NOT NULL DEFAULT GETDATE(),
+    TotalAmount DECIMAL(18, 2) NOT NULL,
+    FOREIGN KEY (CustomerId) REFERENCES Customers(CustomerId)
+);
+GO

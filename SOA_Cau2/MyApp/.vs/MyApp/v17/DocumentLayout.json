@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9898F940-B6F2-4CA5-9141-300DD6CC5EAA}|Business\\Business.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\business\\customerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9898F940-B6F2-4CA5-9141-300DD6CC5EAA}|Business\\Business.csproj|solutionrelative:business\\customerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB980F3-1E4F-451C-A317-5468E029E6FE}|Persistent\\Persistent.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\persistent\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB980F3-1E4F-451C-A317-5468E029E6FE}|Persistent\\Persistent.csproj|solutionrelative:persistent\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB980F3-1E4F-451C-A317-5468E029E6FE}|Persistent\\Persistent.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\persistent\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB980F3-1E4F-451C-A317-5468E029E6FE}|Persistent\\Persistent.csproj|solutionrelative:persistent\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\presentation\\customerscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|solutionrelative:presentation\\customerscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\presentation\\customerdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|solutionrelative:presentation\\customerdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|c:\\users\\84967\\downloads\\soa_cau2\\myapp\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5120CDAB-DC44-4EA9-AB52-01C9207965EF}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Persistent\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Persistent\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Persistent\\Models\\Order.cs",
+              "RelativeToolTip": "Persistent\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:47:10.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerObject.cs",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Business\\CustomerObject.cs",
+              "RelativeDocumentMoniker": "Business\\CustomerObject.cs",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Business\\CustomerObject.cs",
+              "RelativeToolTip": "Business\\CustomerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:40:32.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Persistent\\DAO\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "Persistent\\DAO\\CustomerDAO.cs",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Persistent\\DAO\\CustomerDAO.cs",
+              "RelativeToolTip": "Persistent\\DAO\\CustomerDAO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:40:22.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerScreen.cs",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\CustomerScreen.cs",
+              "RelativeDocumentMoniker": "Presentation\\CustomerScreen.cs",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\CustomerScreen.cs",
+              "RelativeToolTip": "Presentation\\CustomerScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:27:20.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\CustomerDelegate.cs",
+              "RelativeDocumentMoniker": "Presentation\\CustomerDelegate.cs",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\CustomerDelegate.cs",
+              "RelativeToolTip": "Presentation\\CustomerDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:20:04.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:18:19.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\84967\\Downloads\\SOA_Cau2\\MyApp\\Presentation\\appsettings.json",
+              "RelativeToolTip": "Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T12:16:01.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
