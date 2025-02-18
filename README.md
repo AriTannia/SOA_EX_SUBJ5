@@ -1,7 +1,7 @@
 # 📌 MyApp
 
-\
-🚀 **Mô tả**: Đây là một ứng dụng kiến trúc nhiều tầng (**N-Tier Architecture**) sử dụng C# và Entity Framework Core.
+🚀 **Mô tả**: 
+MyApp là một ứng dụng theo kiến trúc **N-Tier Architecture**, sử dụng **C#** và **Entity Framework Core**, giúp quản lý khách hàng và đơn hàng với giao diện dòng lệnh.
 
 ---
 
@@ -29,51 +29,70 @@ MyApp
 │   ├── CustomerDelegate.cs
 │   ├── CustomerScreen.cs
 │   ├── Program.cs
+│
+│── Data
+│   ├── Database.sql
 ```
 
 ---
 
-## 🔍 Các tầng kiến trúc
+## 🔍 Kiến trúc tầng
 
-### 🎨 Presentation Layer
+### 🎨 Presentation Layer (Giao diện người dùng)
+📌 **Chức năng**: Xử lý tương tác người dùng, hiển thị dữ liệu qua giao diện dòng lệnh.
+- `CustomerScreen.cs` - Hiển thị menu, nhận và xử lý đầu vào.
+- `CustomerDelegate.cs` - Cầu nối với Business Layer.
+- `Program.cs` - Cấu hình Dependency Injection và chạy ứng dụng.
 
-📌 **Chức năng**: Giao diện người dùng, xử lý đầu vào & hiển thị dữ liệu.
+### 🧠 Business Layer (Xử lý nghiệp vụ)
+📌 **Chức năng**: Chứa các logic xử lý dữ liệu.
+- `CustomerObject.cs` - Xử lý nghiệp vụ liên quan đến khách hàng và đơn hàng.
 
-- `CustomerScreen.cs` - Giao diện chính cho khách hàng.
-- `CustomerDelegate.cs` - Cầu nối giữa Presentation và Business Layer.
-
-### 🧠 Business Layer
-
-📌 **Chức năng**: Xử lý logic nghiệp vụ.
-
-- `CustomerObject.cs` - Lớp đại diện cho khách hàng và đơn hàng.
-
-### 🗄️ Persistence Layer
-
-📌 **Chức năng**: Tương tác với cơ sở dữ liệu.
-
+### 🗄️ Persistence Layer (Truy xuất dữ liệu)
+📌 **Chức năng**: Tương tác với cơ sở dữ liệu SQL Server.
 - **DAO (Data Access Object)**:
-  - `CustomerDAO.cs` - Truy xuất thông tin khách hàng.
-  - `OrderDAO.cs` - Truy xuất thông tin đơn hàng.
-  - `ICustomerDAO.cs`, `IOrderDAO.cs` - Interface cho DAO.
+  - `CustomerDAO.cs`, `OrderDAO.cs` - Thực hiện truy vấn dữ liệu.
+  - `ICustomerDAO.cs`, `IOrderDAO.cs` - Interface định nghĩa các phương thức DAO.
 - **Data**:
-  - `AppDbContext.cs` - Lớp context cho Entity Framework.
+  - `AppDbContext.cs` - Context của Entity Framework Core.
 - **Models**:
-  - `Customer.cs`, `Order.cs` - Các model của ứng dụng.
+  - `Customer.cs`, `Order.cs` - Định nghĩa mô hình dữ liệu.
 
-### 🗃️ Database Layer
-
-📌 **Chức năng**: Lưu trữ và quản lý dữ liệu.
-
-- **Database**: Định nghĩa trong `DuLieu.sql`
+### 🗃️ Data Layer (Cơ sở dữ liệu)
+📌 **Chức năng**: Lưu trữ dữ liệu bằng SQL Server.
+- **Database.sql**: Chứa script khởi tạo database.
+- **SQL Schema**:
+   ```sql
+   CREATE DATABASE SOAShopC2;
+   GO
+   
+   USE SOAShopC2;
+   GO
+   
+   CREATE TABLE Customers (
+       CustomerId INT PRIMARY KEY IDENTITY(1,1),
+       Name NVARCHAR(100) NOT NULL,
+       Email NVARCHAR(100) NOT NULL,
+       Phone NVARCHAR(20) NULL
+   );
+   
+   CREATE TABLE Orders (
+       OrderId INT PRIMARY KEY IDENTITY(1,1),
+       CustomerId INT NOT NULL,
+       OrderDate DATETIME NOT NULL DEFAULT GETDATE(),
+       TotalAmount DECIMAL(18, 2) NOT NULL,
+       FOREIGN KEY (CustomerId) REFERENCES Customers(CustomerId)
+   );
+   GO
+   ```
 
 ---
 
 ## ⚙️ Công nghệ sử dụng
 
-- VS Studio 2022
-- SQL Server
-- .NET Core 9.0
+- 🎯 **C#**, **.NET Core 9.0**
+- 🛢 **SQL Server** (Entity Framework Core)
+- 🖥 **Visual Studio 2022**
 
 ---
 
@@ -83,8 +102,8 @@ MyApp
    ```sh
    git clone https://github.com/your-repo/MyApp.git
    ```
-2. Cấu hình `appsettings.json` để kết nối với SQL Server.
-3. Chạy lệnh sau để cập nhật database:
+2. Cấu hình `appsettings.json` để kết nối SQL Server.
+3. Chạy lệnh để cập nhật database:
    ```sh
    dotnet ef database update
    ```
@@ -99,4 +118,4 @@ MyApp
 
 🔖 **MIT License** - Tự do sử dụng và sửa đổi.
 
-📩 **Liên hệ**: Nếu có vấn đề, vui lòng liên hệ qua [ngophucnguyen1976@gmaill.com](mailto\:ngophucnguyen1976@gmaill.com)
+📩 **Liên hệ**: Vui lòng liên hệ qua [ngophucnguyen1976@gmaill.com](mailto:ngophucnguyen1976@gmaill.com)
